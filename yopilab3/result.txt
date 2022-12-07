@@ -1,0 +1,9 @@
+﻿Task 1
+Trend is positive
+Task 2
+Center of gravity = (3.891666666666667, 35.0)
+Covariance = 23.0
+Task 3
+Equation y = 0.08156028368794327x + 1.0370567375886526
+Task 4
+Correlation = 0.9010014623100246
