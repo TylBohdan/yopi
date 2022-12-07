@@ -8,7 +8,6 @@ def scatter_plot(x_list: list[float], y_list:[float]):
     plt.scatter(x_list, y_list)
     plt.xlabel('x')
     plt.ylabel('y')
-    plt.show()
     plt.savefig('result.jpg')
 
 def calculate_covariance(y_list: list[float], x_list: list[float], center_of_gravity: tuple[float, float]):
