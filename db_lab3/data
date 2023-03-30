@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Elden Ring",
+        "genre": "action role-playing",
+        "year_published": 2022,
+        "organization": {
+            "developer": "FromSoftware",
+            "publisher": "Bandai Namco Entertainment"
+        },
+        "mode": ["single player", "multiplayer"]
+    },
+    {
+        "title": "Horizon Zero Dawn",
+        "genre": ["action role-playing", "adventure"],
+        "year_published": 2017,
+        "organization": {
+            "developer": "Guerrilla Games",
+            "publisher": "Sony Interactive Entertainment"
+        },
+        "mode": "single player"
+    },
+    {
+        "title": "Cyberpunk 2077",
+        "genre": "action role-playing",
+        "year_published": 2020,
+        "organization": {
+            "developer": "CD Projekt Red",
+            "publisher": "CD Projekt"
+        },
+        "mode": "single player"
+    }
+]

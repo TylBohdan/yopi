@@ -1,0 +1,10 @@
+use TEST
+db.games.insertMany([{"title":"Elden Ring","genre":"action role-playing","year_published":2022,"organization":{"developer":"FromSoftware","publisher":"Bandai Namco Entertainment"},"mode":["single player","multiplayer"]},{"title":"Horizon Zero Down","genre":["action role-playing","adventure"],"year_published":2017,"organization":{"developer":"Guerrilla Games","publisher":"Sony Interactive Entertainment"},"mode":"single player"},{"title":"Cyberpunk 2077","genre":"action role-playing","year_published":2020,"organization":{"developer":"CD Projekt Red","publisher":"CD Projekt"},"mode":"Single player"}])
+db.games.find({title: "Elden Ring"})
+db.games.find({title: "Elden Ring"}, {year_published: 1, genre: 1, _id: 0})
+db.games.find({title: "Horizon Zero Dawn"}, {mode: 0})
+db.games.find({"organization.developer": "CD Projekt Red"})
+db.games.find({title:{"$regex": /Elden/i}})
+db.games.find().sort({title: 1}).skip(1).limit(2)
+db.games.find().sort({$natural: -1}).limit(2)
+db.games.find({title: "Horizon Zero Dawn"}, {genre: {$slice: 1}})
